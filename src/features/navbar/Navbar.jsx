@@ -45,9 +45,13 @@ export default function Navbar() {
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
 
-    <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold" style={{color:'white'}}>TuDu Flow Dreams Begin To Glow</h1>
-      <h1 className="mb-2 text-5sl font-bold" style={{color:'white'}}>Event ? When ? Where ?</h1>
+    <div className="">
+      <h1 className="mb-5 m-8 lg:text-5xl font-bold md:text-4xl sm:text-4xl" style={{color:'white'}}>TuDu Flow Dreams Begin To Glow</h1>
+     
+      <div class="">
+      <a className="btn m-2 lg:text-5sl md:text-4sl sm:text-3sl " style={{color:'white'}}>Create</a>
+      <a className="btn m-2 lg:text-5sl md:text-4sl sm:text-3sl " style={{color:'white'}}>Book</a>
+      </div>
     </div>
   </div>
 </div>
