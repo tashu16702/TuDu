@@ -13,7 +13,7 @@ export default function Carousel() {
     <div className="bg-cover bg-center" style={{backgroundImage: 'url("./slider_bg.jpg")'}}>
 
 
-    <div className="grid grid-flow-col gap-5 text-center auto-cols-max py-8 flex justify-center ">
+    <div className="grid grid-flow-col gap-5 text-center auto-cols-max py-8 flex justify-center  ">
   <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content text-white">
     <span className="countdown font-mono text-5xl ">
       <span style={{"--value":15}}></span>
